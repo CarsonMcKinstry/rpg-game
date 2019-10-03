@@ -1,12 +1,12 @@
 {
   "name": "rpg-game",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "main.js",
   "author": "Carson McKinstry <carson.mckinstry@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf ./build && webpack --config ./config/webpack.config.js",
-    "start": "yarn build && electron ./build/main.js"
+    "build": "rm -rf ./build && webpack",
+    "start": "yarn build && electron ."
   },
   "devDependencies": {
     "@babel/cli": "^7.6.2",

@@ -98,3 +98,6 @@ public
 .dynamodb/
 
 build
+
+*.js
+!*.config.js

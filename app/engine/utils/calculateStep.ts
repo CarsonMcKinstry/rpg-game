@@ -1,4 +1,4 @@
-import { FrameData } from './../_types';
+import { FrameData } from '../_types';
 import { Observable, Subject } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { clampMax } from './clamp';
