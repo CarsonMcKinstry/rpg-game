@@ -7,3 +7,5 @@ game.start();
 setTimeout(() => {
   game.pause();
 }, 5000);
+
+console.log('fuck');

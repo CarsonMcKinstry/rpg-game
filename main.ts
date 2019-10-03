@@ -1,7 +1,7 @@
 import { app, BrowserWindow, ipcMain } from 'electron';
 import path from 'path';
 
-const rootHtml = path.resolve(app.getAppPath(), 'index.html');
+const rootHtml = path.resolve(app.getAppPath(), 'build/index.html');
 
 let win: BrowserWindow | null;
 
